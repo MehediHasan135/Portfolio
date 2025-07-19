@@ -92,6 +92,8 @@ nav .navlinks li {
 nav .navlinks li a {
     display: #e5e5e5;
     margin-right: 2.5rem;
+    color: #fff;
+    background-color: transparent;
 }
 
 .container {
