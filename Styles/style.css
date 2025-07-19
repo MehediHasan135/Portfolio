@@ -8,6 +8,8 @@
 
 body {
     overflow-x: hidden;
+    background-color: #222;
+    margin: 0;
 }
 
 .hero-header {
@@ -174,6 +176,40 @@ nav .navlinks li a {
     color: #007ced;
     transform: rotate(360deg);
 }
+
+
+.hero-header {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.hero-header {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    padding: 20px 15px;
+    margin-top: auto;
+}
+
+.footer-content p {
+    color: #a0a0a0;
+    font-size: 1rem;
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .footer-content p {
+        font-size: 0.85rem;
+    }
+}
+
+
 
 /* Responsive desing & displaying navbar for small screens */
 @media (max-width: 930px) {
